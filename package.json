@@ -1,15 +1,15 @@
 {
-  "name": "pkg-placeholder",
+  "name": "catbox-sdk",
   "version": "0.0.0",
   "description": "_description_",
   "keywords": [
-    "pkg-placeholder"
+    "catbox-sdk"
   ],
-  "homepage": "https://github.com/ericc-ch/pkg-placeholder",
-  "bugs": "https://github.com/ericc-ch/pkg-placeholder/issues",
+  "homepage": "https://github.com/ericc-ch/catbox-sdk",
+  "bugs": "https://github.com/ericc-ch/catbox-sdk/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericc-ch/pkg-placeholder.git"
+    "url": "git+https://github.com/ericc-ch/catbox-sdk.git"
   },
   "author": "Erick Christian <erickchristian48@gmail.com>",
   "type": "module",
@@ -18,9 +18,6 @@
       "types": "./dist/main.d.ts",
       "default": "./dist/main.js"
     }
-  },
-  "bin": {
-    "pkg-placeholder": "./dist/cli.js"
   },
   "files": [
     "dist"
@@ -40,9 +37,6 @@
   },
   "lint-staged": {
     "*": "pnpm run lint --fix"
-  },
-  "dependencies": {
-    "citty": "^0.1.6"
   },
   "devDependencies": {
     "@echristian/eslint-config": "^0.0.39",

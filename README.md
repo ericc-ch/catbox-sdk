@@ -1,9 +1,9 @@
-# pkg-placeholder
+# catbox-sdk
 
 _description_
 
 > **Note**:
-> Replace `pkg-placeholder` and `_description_` globally to use this template.
+> Replace `catbox-sdk` and `_description_` globally to use this template.
 
 ## License
 
